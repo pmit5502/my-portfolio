@@ -1,0 +1,84 @@
+body {
+font-family: 'Inter', sans-serif;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+.container {
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.skill-card {
+transition: all 0.3s ease-in-out;
+}
+
+.project-card {
+transition: all 0.3s ease-in-out;
+}
+
+#backToTopBtn {
+z-index: 1000;
+transition: opacity 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar {
+width: 8px;
+}
+
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #888;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+
+html {
+scrollbar-width: thin;
+scrollbar-color: #888 #f1f1f1;
+}
+
+@media (max-width: 768px) {
+header .container {
+flex-direction: column;
+text-align: center;
+}
+
+header nav ul {
+margin-top: 1rem;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+header nav ul li {
+margin: 0.5rem;
+}
+
+section {
+padding: 1.5rem;
+}
+
+h1 {
+font-size: 2.5rem;
+}
+
+h2 {
+font-size: 2rem;
+}
+
+.text-xl {
+font-size: 1.125rem;
+}
+}
